@@ -250,3 +250,34 @@
  #footer div{
     padding:20px;
  }
+ @media screen and (max-width:300px){
+    #head{
+        display:flex;
+        flex-direction: column;
+    }
+    #head img{
+        margin-left:-80px;
+    }
+    .image{
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    #tabs{
+        display:flex;
+        flex-direction: column;
+    }
+ }
+ @media (min-width:301px) and (max-width:600px){
+    #head{
+        display:flex;
+        flex-direction: column;
+    }
+    .image{
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    #tabs{
+        display:flex;
+        flex-direction: column;
+    }
+ }
