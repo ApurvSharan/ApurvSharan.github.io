@@ -6,7 +6,9 @@
     margin: 0;
     font-family: 'Alegreya', serif;
 }
-
+#navbar a:nth-child(1){
+    font-size:30px;
+}
 #navbar {
     display: flex;
     justify-content: space-evenly;
