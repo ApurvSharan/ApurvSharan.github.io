@@ -296,6 +296,9 @@ strong:hover {
 .description {
     text-align: left;
 }
+.description p:nth-child(1){
+    font-size:30px;
+}
 
 .description p {
     padding: 10px;
