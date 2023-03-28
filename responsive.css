@@ -63,6 +63,7 @@
     }
     #head{
         flex-direction: column;
+        width:100%;
     }
     #head div:nth-child(1){
         margin-left:-50px;
@@ -73,7 +74,12 @@
     #pr{
         font-size: 25px;
     }
-    
+    #para{
+        width:100%;
+    }
+    #para p{
+        text-align:left;
+    }
 }
 
 

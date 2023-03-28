@@ -179,6 +179,7 @@ strong:hover {
 
 #head {
     display: flex;
+    width:100%;
 }
 
 #head div {
@@ -188,7 +189,6 @@ strong:hover {
 }
 
 #para {
-    width: 90%;
     text-align: left;
     justify-content: center;
     padding-top: 50px;
